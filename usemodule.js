@@ -1,0 +1,7 @@
+const obj = require('./mymodule')
+var data = obj.si(12000,2,3)
+console.log(data)
+obj.si1(12000,2,3)
+obj.si2()
+var data1 = obj.si3()
+console.log(data1)
